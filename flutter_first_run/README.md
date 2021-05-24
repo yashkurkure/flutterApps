@@ -2,15 +2,9 @@
 
 First flutter application
 
-## Getting Started
+Follow the tutorial [here](https://flutter.dev/docs/get-started/codelab) and you can build this too.
 
-This project is a starting point for a Flutter application.
+## Links to files you may want to checkout:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Main code for the app: [main.dart](https://github.com/yashkurkure/flutterApps/blob/main/flutter_first_run/lib/main.dart)
+- Dependency Files: [pubspec.yml](https://github.com/yashkurkure/flutterApps/blob/main/flutter_first_run/pubspec.yaml), [pubspec.lock](https://github.com/yashkurkure/flutterApps/blob/main/flutter_first_run/pubspec.lock)
