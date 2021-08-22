@@ -8,6 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 
 
+//Below is a way of writing functions which only have one line of code
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget
@@ -17,8 +18,7 @@ class MyApp extends StatelessWidget
   Widget build(BuildContext context)
   {
     /**
-     * Below code is for hello world, the formatting is okayish.
-     * It was confusing for me at first , so ill use the regular formatting below so that we can see what is going on.
+     * Flutter style of code formatting
     return MaterialApp(
       title: 'Welcome to Flutter',
       home: Scaffold(
@@ -38,22 +38,30 @@ class MyApp extends StatelessWidget
      * It’s a good idea to have a uses-material-design: true entry in the flutter section of your pubspec.yaml file.
      * This will allow you to use more features of Material, such as their set of predefined Icons. */
 
+    /**
+     * Below code is how we used to wrote code in C++/JAVA
+     */
+
     final wordPair = WordPair.random();
 
+    //Text is also a widget
     Text myText0 = new Text('Hello World!');
 
     Text myText1 = new Text('Welcome to Flutter');
 
     Text myText2 = new Text(wordPair.asPascalCase);
 
-    Center myCenter = new Center(child: RandomWords()); //Even alignment is a widget in flutter
+    //Even alignment is a widget in flutter
+    Center myCenter = new Center(child: RandomWords());
 
+    //AppBar is provided by flutter Material App
     AppBar myAppbar = new AppBar(title: myText1,);
 
-    //Scaffold myScaffold = new Scaffold(appBar: myAppbar, body: myCenter,);
-
+    //Scaffold does the job of creating a basic design for the page, like the color scheme/fonts etc
+    //Scaffold has many named arguments which you can use to change the look of the UI.
     Scaffold myScaffold = new Scaffold(appBar: myAppbar, body: RandomWords(),);
 
+    //Base Widget, i.e, the whole window itself.
     Widget base = new MaterialApp(title: 'Welcome to Flutter', home: myScaffold,);
 
 
@@ -99,11 +107,12 @@ class _RandomWordsState extends State<RandomWords>
   final _suggestions = <WordPair>[]; //No variable type
   final TextStyle _biggerFont = TextStyle(fontSize: 18.0); //With variable type
 
-  //Notice how above we haven't mention the type variable type.
+  //Notice how above we haven't mention the variable type.
   //Usually you can use "var" in dart, but when its final it doesnt matter as once the value is initialized , it wont change.
-  //You cant say "final var something = .." tho, because var means variable, and variables can change, whereas final is constant.
+  //You cant say "final var something = .." though, because var means variable, and variables can change, whereas final is constant.
   //See: https://www.geeksforgeeks.org/dart-const-and-final-keyword/
 
+  //@override tells us that we are overriding the build method with our own implementation.
   @override
   Widget build(BuildContext context)
   {

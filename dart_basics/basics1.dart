@@ -14,6 +14,8 @@ void main() //dart has a main function just like java/c/c++.
   print(addNumbersDynamic(10, 1)); //11
   print(addNumbersDynamic(10, 1.1)); //11.1
   print(addNumbersDynamic(10.5, 1)); //11.5
+
+  print(multiply(3, 4)); //12
 }
 
 
@@ -33,3 +35,6 @@ addNumbersDynamic(num1, num2)
 {
   return num1+num2; 
 }
+
+//Functions with only one line of code can be written as:
+int multiply(int a, int b) => (a*b);
