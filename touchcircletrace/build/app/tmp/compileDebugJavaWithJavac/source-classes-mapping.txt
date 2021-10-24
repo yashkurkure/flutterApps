@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+edu/uic/cs378/touchcricletrace/touchcircletrace/BuildConfig.java
+ edu.uic.cs378.touchcricletrace.touchcircletrace.BuildConfig
+edu/uic/cs378/touchcricletrace/touchcircletrace/MainActivity.java
+ edu.uic.cs378.touchcricletrace.touchcircletrace.MainActivity
