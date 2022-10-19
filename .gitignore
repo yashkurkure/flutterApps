@@ -47,22 +47,22 @@ analysis_benchmark.json
 
 # Flutter/Dart/Pub related
 **/doc/api/
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
 **/generated_plugin_registrant.dart
-.packages
-.pub-cache/
-.pub/
-build/
-flutter_*.png
-linked_*.ds
-unlinked.ds
-unlinked_spec.ds
+**/.packages
+**/.pub-cache/
+**/.pub/
+**/build/
+**/flutter_*.png
+**/linked_*.ds
+**/unlinked.ds
+**/unlinked_spec.ds
 
 # Android related
 **/android/**/gradle-wrapper.jar
-.gradle/
+**/.gradle/
 **/android/captures/
 **/android/gradlew
 **/android/gradlew.bat
