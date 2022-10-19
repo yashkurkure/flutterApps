@@ -1,4 +1,0 @@
-#Thu Oct 07 18:51:11 CDT 2021
-base.0=/home/yash/git/TouchCircleTrace/flutter_dart/touchcircletrace/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
