@@ -1,6 +1,0 @@
-io/flutter/plugins/GeneratedPluginRegistrant.java
- io.flutter.plugins.GeneratedPluginRegistrant
-edu/uic/cs/cs378/coorrdinate_aware_app/coordinate_aware_app/MainActivity.java
- edu.uic.cs.cs378.coorrdinate_aware_app.coordinate_aware_app.MainActivity
-edu/uic/cs/cs378/coorrdinate_aware_app/coordinate_aware_app/BuildConfig.java
- edu.uic.cs.cs378.coorrdinate_aware_app.coordinate_aware_app.BuildConfig
